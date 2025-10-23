@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     borderWidth: 2,
     borderColor: "#fff",
-    borderRadius: 20*1.5,
+    borderRadius: "15%",
     padding: 10*1.5,
   },
   logo: {

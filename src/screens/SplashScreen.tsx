@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import { View, Text, Image, ActivityIndicator } from "react-native";
 import styles from "./SplashScreenStyles";
 
@@ -14,7 +13,8 @@ export default function SplashScreen() {
                 />
             </View>
             <Text style={styles.text}>PLAYLIST</Text>
-            <ActivityIndicator size="large" color="#fff" style={{ marginTop: 20 }} />
+            {/* activityindicator coloca o círculo rodando */}
+            { <ActivityIndicator size="large" color="#fff" style={{ marginTop: 20 }} /> }
         </View>
     );
 }

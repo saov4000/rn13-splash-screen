@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import SplashScreen from "../SplashScreen";
-import HomeScreen from "../Home";
+import SplashScreen from "../screens/SplashScreen";
+import HomeScreen from "../screens/Home";
 
 const Stack = createStackNavigator();
 
@@ -10,7 +10,7 @@ export default function StackRoutes() {
 
   useEffect(() => {
     // Simula verificação (token, login, API, etc.)
-    const timer = setTimeout(() => setIsLoading(false), 3000);
+    const timer = setTimeout(() => setIsLoading(false), 2000);
     return () => clearTimeout(timer);
   }, []);
 

@@ -6,7 +6,7 @@ import { styles } from './HomeStyle';
 export default function screens() {
   return (
     <View style={styles.container}>
-        <Text>Home Screen</Text>
+        <Text style={styles.texto}>Home Screen</Text>
     </View>
   );
 }
